@@ -5,6 +5,8 @@ require 'site_prism'
 require 'capybara/poltergeist'
 require 'capybara-screenshot/cucumber'
 require 'base64'
+require 'rspec'
+require 'regex'
 
 app_host = 'http://smasp-itg.ungp.softplan.com.br/'
 max_wait_time = 30
